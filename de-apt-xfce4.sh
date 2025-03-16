@@ -10,7 +10,7 @@ apt-get clean
 mkdir ~/.vnc
 wget https://raw.githubusercontent.com/DevrdxDev/KaliLinux1/refs/heads/main/xstartup --no-check-certificate -P ~/.vnc/
 wget https://raw.githubusercontent.com/DevrdxDev/KaliLinux1/refs/heads/main/vncserver-start --no-check-certificate -P /usr/local/bin/
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Xfce4/vncserver-stop --no-check-certificate -P /usr/local/bin/
+wget https://raw.githubusercontent.com/DevrdxDev/KaliLinux1/refs/heads/main/vncserver-stop --no-check-certificate -P /usr/local/bin/
 
 chmod +x ~/.vnc/xstartup
 chmod +x /usr/local/bin/vncserver-start
