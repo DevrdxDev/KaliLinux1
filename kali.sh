@@ -24,7 +24,7 @@ if [ "$first" != 1 ];then
 		*)
 			echo "unknown architecture"; exit 1 ;;
 		esac
-		wget "https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Rootfs/Kali/${archurl}/kali-rootfs-${archurl}.tar.xz" -O $tarball
+		wget "https://github.com/DevrdxDev/KaliLinux1/releases/tag/V1.0/kali-rootfs-${archurl}.tar.xz" -O $tarball
 	fi
 	cur=`pwd`
 	mkdir -p "$folder"
